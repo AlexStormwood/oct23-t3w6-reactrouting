@@ -1,10 +1,11 @@
 import { Outlet } from "react-router-dom";
+// import Navbar from "../components/Navbar";
 
 
 export default function BaseLayout(){
 
 	return <>
-	<h1>Shared layout content</h1>
+	{/* <Navbar /> */}
 	<Outlet />
 	</>
 }

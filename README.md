@@ -21,6 +21,7 @@ Goals:
 			- object-based absolute 
 		- The "Outlet" component 
 		- Links
+			- # links to on-page content 
 		- NavLinks
 		- Redirection 
 			- Navigate (component)
