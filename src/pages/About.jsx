@@ -1,3 +1,11 @@
+import { useNavigate } from "react-router-dom";
+
 export default function AboutPage(){
-	return (<h1>About page</h1>);
+
+	const navigate = useNavigate();
+
+	return (<>
+	<h1>About page</h1>
+	<button onClick={() => navigate("/")}>Go home</button>
+	</>);
 }
